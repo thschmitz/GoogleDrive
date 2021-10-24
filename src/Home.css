@@ -1,0 +1,161 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header_logo img{
+    width: 80px;
+}
+
+.header_pesquisa{
+    display:flex;
+    border-radius: 10px;
+
+}
+
+.header_pesquisa .search_logo{
+    margin-top: 22px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.header_user img{
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 13px;
+    margin-right: 15px;
+}
+
+.header_pesquisa{
+    width: 60%;
+    margin-top: 10px;
+}
+
+.header_pesquisa input[type="text"]{
+    width: 100%;
+    height: 60px;
+    padding-left: 15px;
+    border: 0;
+    background-color: rgb(240, 240, 240);
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.header_pesquisa{
+    background-color: rgb(240, 240, 240);
+    max-height: 60px;
+}
+
+.main{
+    max-width: 100%;
+    display:flex;
+}
+
+.hidden-input{
+    display:none;
+}
+
+.main_btnFileSelect{
+    padding: 3px 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.plus_logo{
+    color: red;
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+.main_folderMeuDrive{
+    margin-top: 30px;
+    background-color: rgba(3,169,252,0.2);
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.main_sidebar{
+    width: 300px;
+    padding: 40px 10px;
+}
+
+.main_content{
+    width: calc(100% - 300px);
+    padding: 10px
+}
+
+.main_folderMeuDrive svg{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.dowload_progress{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main_folderMeuDrive span{
+    padding-left:30px;
+    position: relative;
+    top: -3px
+}
+
+.mainTopoText{
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    font-weight:normal;
+}
+
+.boxFiles{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.boxFileSingle{
+    margin-bottom: 20px;
+    width: 31%;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.boxFileSingle svg{
+    font-size: 30px;
+
+}
+
+.boxFileSingle a{
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    display:block;
+}
+
+.boxFileSingle a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px){
+    .main{
+        flex-wrap: wrap;
+    }
+
+    .main_content{
+        width: 100%
+    }
+
+    .main_sidebar{
+        width: 100%;
+        padding: 40px 10px;
+    }
+}
+
