@@ -41,7 +41,7 @@ function Home(props){
                     nome: arquivo.name
                 })
             })
-            alert("Upload realizado com sucesso!")
+            alert("Upload realizado com sucesso!");
             setProgress(0)
 
         })
